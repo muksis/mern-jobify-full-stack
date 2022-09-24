@@ -7,7 +7,7 @@ dotenv.config();
 import connectDB from './db/connect.js';
 
 // routers
-import authRouter from './routes/authRoutes';
+import authRouter from './routes/authRoutes.js';
 
 // middleware
 import notFoundMiddleware from './middleware/not-found.js';
